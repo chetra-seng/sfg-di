@@ -5,3 +5,19 @@ guru:
   username: superuser
   password: dbpassword
   url: someurls
+
+---
+spring:
+  profiles: dev
+guru:
+  username: devUser
+  password: devPassword
+  url: devUrls
+
+---
+spring:
+  profiles: qa
+guru:
+  username: qaUser
+  password: qaPassword
+  url: qaUrls
